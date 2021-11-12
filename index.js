@@ -172,14 +172,14 @@ function consume(a, b, cb) {
 /* 🦁🦁🦁 Step 2: Create several functions to callback with consume(); 🦁🦁🦁 */
 // 🦁🦁🦁 Use add to return the sum of two numbers 🦁🦁🦁
 
-function add(num1, num2) {
-  return num1 + num2;
+function add(a, b) {
+  return a + b;
 }
 
 // 🦁🦁🦁 Use multiply to return the product of two numbers 🦁🦁🦁
 
-function multiply(num1, num2) {
-  return num1 * num2;
+function multiply(a, b) {
+  return a * b;
 }
 
 // 🦁🦁🦁 Use greeting to accept a first and last name and return "Hello {first-name} {last-name}, nice to meet you!" 🦁🦁🦁
